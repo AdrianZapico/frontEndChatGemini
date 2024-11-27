@@ -1,0 +1,97 @@
+.gemini-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #a0a0a0;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .gemini-component h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3em; /* Aumentando um pouco o tamanho */
+    margin-bottom: 20px;
+    color: #00ffccf3;
+    text-shadow: 0 0 10px rgba(0, 255, 204, 0.7), 0 0 20px rgba(0, 255, 204, 0.5);
+  }
+  
+  .gemini-component form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .gemini-component input {
+    background-color: #1e1e1e;
+    border: 2px solid #00ffcc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    color:beige;
+  }
+  
+  .gemini-component button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button-primary {
+    background-color: #00ffb3 ;
+    color: #121212;
+  
+  }
+
+  .button-secondary{
+    background-color: #ff0062;
+    color: #121212;
+  
+  }
+
+
+  .button-primary:hover {
+    background-color: #90f3c1;
+  }
+  
+  .button-secondary:hover {
+    background-color: #d15e5e;
+  }
+
+  .gemini-component-title{
+      color: rgb(58, 112, 158);
+  }
+  .piscando {
+    animation: piscar 1s infinite;
+    color: beige;
+  }
+  
+  @keyframes piscar {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+.reposta{
+  background-color: #333;
+  border: 1px solid #ff0066;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  color: #ff0066;
+  font-size: 0.9em;
+}
