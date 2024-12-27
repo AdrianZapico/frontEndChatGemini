@@ -10,7 +10,7 @@ function GeminiComponent() {
     e.preventDefault();
 
     try {
-      const response = await axios.post('https://servergemini.onrender.com/gnerate', { prompt });
+      const response = await axios.post('https://servergemini.onrender.com/generate', { prompt });
       setResponse(response.data.response);
     } catch (error) {
       console.error('Error:', error);
